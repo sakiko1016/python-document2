@@ -1,0 +1,12 @@
+# Use the following list - [1,11,14,5,8,9]
+
+l_1 = [1,11,14,5,8,9]
+
+def numbers_less_than_ten(lst):
+    result = []
+    for num in lst:
+        if num < 10:
+            result.append(num)
+    return result
+
+print(numbers_less_than_ten(l_1))
